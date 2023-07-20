@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+body{
+    font-size: 16px;
+    font-family:'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+.main{
+    /* displ; */
+    width: 78vh;
+    height: 64vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10vh 5px rgba(0, 0, 0, 0.366);
+    overflow: hidden;
+    margin: auto;
+    margin-top: 15vh;
+    background-color: aliceblue;   
+}
+h1{
+    color: hsl(179, 62%, 43%);
+    position: relative;
+    left: 5vh;
+    top: 3vh;
+    font-weight: 700;
+}
+.p1{
+    color: hsl(71, 73%, 54%);
+    position: relative;
+    left: 5vh;
+    top: 3.5vh;
+    font-weight: 700;
+    
+}
+.p2{
+    width: 65vh;
+    color: hsl(204, 40%, 70%);
+    line-height: 3.5vh;
+    position: relative;
+    top: 4vh;
+    left: 5vh;
+    font-weight: 700;
+}
+.box{
+    height: 34vh;
+    width: 100%;
+    display: flex;
+    background-color: hsl(179, 62%, 43%);
+    position: relative;
+    top: 5vh;
+}
+.box1{
+    width: 50vh;
+    height: 31vh;
+    position: relative;
+    top: 8px;
+}
+h3{
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 5vh;
+    padding-top: 1vh;
+}
+
+.p3{
+    color: hsla(179, 82%, 80%, 0.7);
+    font-weight: 700;
+    position: relative;
+    left: 7vh;
+    bottom: 10px;
+}
+span{
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    right: 2vh;
+    top:2px;
+    font-weight: 400;
+}
+.p4{
+    width: 27vh;
+    position: relative;
+    left: 5vh;
+    bottom: 2vh;
+    color: aliceblue;
+    font-weight: 600;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    width: 26vh;
+    height: 5vh;
+    cursor: pointer;
+    position: relative;
+    left: 5vh;
+    top:-0.5vh;
+    box-shadow: 0vh 10px 1vh  rgba(0, 0, 0, .25);
+    color: aliceblue;
+    font-weight: 700;
+}
+button:hover{
+    background-color: chartreuse;
+    color: brown;
+}
+.box2{
+    width: 50vh;
+    height: 33vh;
+    position: relative;
+    top: 0.5vh;
+    background-color: hsla(179, 64%, 55%, 0.488);
+}
+h4{
+    padding-left: 5vh;
+    padding-top: 1vh;
+    color: aliceblue;
+    
+}
+.p5{
+    padding-left: 5vh;
+    color: rgba(186, 239, 251, 0.938);
+    line-height: 21px;
+}
+/* for responsive  */
+@media  (min-width:315px)and ( max-width:425px) {  
+    #main{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10vh 5px rgba(0, 0, 0, 0.366);
+        overflow: hidden;
+        margin:auto;
+        background-color:black;   
+    }
+    h1{
+        font-size: 20px;
+        color: hsl(72, 100%, 50%);
+        text-transform: uppercase;
+        align-items: center;
+        /* position: sticky;
+        top: 0; */
+        text-decoration: underline;
+    }
+    .p1{
+        color: hsl(149, 73%, 54%);
+        width:70%;
+        font-weight: 500;
+        text-align: center;
+    }
+    .p2{
+        width: 70%;
+        color: hsl(204, 40%, 70%);
+        line-height: 3.5vh;
+        position: relative;
+        top: 4vh;
+        left: 5vh;
+        font-weight: 400;
+        text-align: center;   
+    }
+    .box{
+        height: 100%;
+        width: 100%;
+        display: block;
+        background-color: hsl(179, 62%, 43%);
+        
+    }
+    .box1{
+        width: 100%;
+        height: 33vh;
+        position: relative;
+        top: 4vh;
+        text-align: left;
+    }
+    .p4{
+        width:70%;
+    }
+    button{
+        width: 70%;
+        position: relative;
+        top:2vh;
+        cursor: pointer;
+    }
+    .box2{
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        top:4vh;
+        
+        background-color: rgb(75, 127, 247);
+    }
+    h4{
+        padding-top: 5vh;
+
+    }
+    
+}
